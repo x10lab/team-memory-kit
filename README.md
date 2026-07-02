@@ -1,8 +1,8 @@
 # AI-Context Sharing Kit
 
-Share Claude Code memories — and optionally [OMC](https://github.com/) state or any
-declared paths — across a team through a **separate git repo**, symlinked into place
-per-machine, **without ever committing that data to the code repo**.
+Share Claude Code memories — and optionally [OMC](https://github.com/yeachan-heo/oh-my-claudecode) 
+state or any declared paths — across a team through a **separate git repo**, symlinked 
+into place per-machine, **without ever committing that data to the code repo**.
 
 Teammates adopt it with **one command**.
 
