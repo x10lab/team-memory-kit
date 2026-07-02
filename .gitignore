@@ -1,2 +1,5 @@
 # per-machine resolved state (created by ai-context-setup.sh in target projects)
 .ai-context.local.json
+
+# OMC runtime state — operational artifacts, never committed to the code repo
+/.omc/
