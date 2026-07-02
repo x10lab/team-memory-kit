@@ -1,0 +1,11 @@
+{
+  "$schema-note": "Committed, shared config. Teammates need no env vars — setup reads this.",
+  "project": "REPLACE_WITH_PROJECT_NAME",
+  "contextRepo": "REPLACE_WITH_GIT_URL_OF_CONTEXT_REPO",
+  "links": [
+    { "type": "dir",  "from": "claude/memory",          "to": "$CLAUDE_PROJECT/memory" },
+    { "type": "file", "from": "omc/project-memory.json", "to": "$REPO/.omc/project-memory.json" },
+    { "type": "dir",  "from": "omc/plans",               "to": "$REPO/.omc/plans" },
+    { "type": "dir",  "from": "omc/specs",               "to": "$REPO/.omc/specs" }
+  ]
+}
